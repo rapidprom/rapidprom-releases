@@ -1,0 +1,39 @@
+RapidProM
+Version 3.0.2
+RELEASE NOTES
+
+The RapdiProM team is pleased to announce the release of RapidProM 3.0.2
+
+RapdiProM is a RapidMiner extension containing a collection of process mining related
+algorithms.
+Supported operators include (amongst others): 
+    > Importing/Exporting
+    > Process Discovery
+    > Conformance Checking
+    > Process Enhancement / Analysis
+
+This is mainly a bug-fix release. See further details below.
+
+This release is guaranteed to be compatible with RapidMiner 5.
+The release is partially working in newer versions of RapidMiner.
+
+The code requires a minimum of Java 1.7.
+
+Notable additions:
+-
+
+
+Changes in this version include:
+
+New features:
+-
+
+Fixed Bugs:
+    1. Classifier error caused precision and generalization scores to be 0.
+    -> commit: 8498a1e21db01517eea3a2d84c9739f75f8bdb0b
+
+Removed Functionality:
+-
+
+Additional Notes:
+-
